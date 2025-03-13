@@ -29,7 +29,7 @@ public class AccountServiceApplication {
             balances.put("EUR", new BigDecimal("500.00"));
 
             Account account = new Account();
-            account.setIban("EE382200221020157845");
+            account.setIban("EE3822002210201578458065");
             account.setBalances(balances);
 
             accountRepository.save(account);
@@ -39,7 +39,7 @@ public class AccountServiceApplication {
             balances.put("IDR", new BigDecimal("10000000.00"));
 
             account = new Account();
-            account.setIban("ES9121000418450200051332");
+            account.setIban("ES6112343456420456323532");
             account.setBalances(balances);
 
             accountRepository.save(account);

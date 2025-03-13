@@ -35,6 +35,7 @@ public class GlobalExceptionHandler {
         HttpStatus status = switch (ex.getStatus()) {
             case Constants.CODE_ERROR_NOT_FOUND -> HttpStatus.NOT_FOUND;
             case Constants.CODE_ERROR_BAD_REQUEST -> HttpStatus.BAD_REQUEST;
+            case Constants.CODE_ERROR_UNPROCESSABLE_ENTITY -> HttpStatus.UNPROCESSABLE_ENTITY;
             default -> HttpStatus.INTERNAL_SERVER_ERROR;
         };
 

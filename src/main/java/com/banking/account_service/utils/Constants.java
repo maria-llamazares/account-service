@@ -18,5 +18,6 @@ public class Constants {
 
     public static final int CODE_ERROR_NOT_FOUND = 404;
     public static final int CODE_ERROR_BAD_REQUEST = 400;
+    public static final int CODE_ERROR_UNPROCESSABLE_ENTITY = 422;
 
 }
