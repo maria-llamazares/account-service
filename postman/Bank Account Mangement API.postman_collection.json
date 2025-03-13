@@ -1,0 +1,91 @@
+{
+	"info": {
+		"_postman_id": "1fd8429c-5b48-41a4-b498-688413597fd9",
+		"name": "Bank Account Mangement API",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "10466288"
+	},
+	"item": [
+		{
+			"name": "accounts/iban/balances",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8080/accounts/ES6112343456420456323532/balances",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"accounts",
+						"ES6112343456420456323532",
+						"balances"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "accounts/iban/deposit",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"currency\": \"GBP\",\r\n    \"amount\": 500\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8080/accounts/ES6112343456420456323532/deposit",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"accounts",
+						"ES6112343456420456323532",
+						"deposit"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "accounts/iban/debit",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"currency\": \"GBP\",\r\n    \"amount\": 50\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8080/accounts/ES6112343456420456323532/debit",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"accounts",
+						"ES6112343456420456323532",
+						"debit"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
