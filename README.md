@@ -29,6 +29,7 @@ The application is built with the following key technologies:
 - **Jakarta Validation**: Request validation for input consistency.
 - **HTTP Client (RestTemplate/WebClient)**: Simulates external system calls.
 - **Maven**: Project build and dependency management.
+- **Spring Boot Starter Test:** For testing purposes, includes libraries like JUnit and Mockito.
 
 ---
 
@@ -58,7 +59,7 @@ Before starting the application, ensure you have the following installed:
    ```
 
 3. **Run the Application**  
-   Start the application using the following Maven command or by running the `AccountApplication` class:
+   Start the application using the following Maven command or by running the `AccountServiceApplication` class:
    ```bash
    mvn spring-boot:run
    ```
