@@ -2,6 +2,8 @@ package com.banking.account_service.utils;
 
 public class Constants {
 
+    private Constants() {}
+
     // Error Codes
     public static final String ERROR_INSUFFICIENT_FUNDS = "ERROR_INSUFFICIENT_FUNDS";
     public static final String ERROR_URL_NOT_FOUND = "ERROR_URL_NOT_FOUND";
